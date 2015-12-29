@@ -7,3 +7,26 @@ body{
   text-align: center;
   font-family: Arial;
 }
+.Header{
+  background: #333;
+  padding: 3em;
+  .title-header, .nave .list{
+    margin-top: -20px;
+    width: 100%;
+  }
+  .title-header{
+    text-align: left;
+    color: #fff;
+    width: 40%;
+    float: left;
+  }
+  .nave{
+    .list{
+      width: 40%;
+      float: right;
+      li{
+        display: inline-block;
+      }
+    }
+  }
+}
